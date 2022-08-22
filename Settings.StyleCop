@@ -1,0 +1,22 @@
+<StyleCopSettings Version="105">
+  <Analyzers>
+    <Analyzer AnalyzerId="StyleCop.CSharp.NamingRules">
+      <Rules>
+    	<Rule Name="ConstFieldNamesMustBeginWithUpperCaseLetter">
+    	  <RuleSettings>
+    		<BooleanProperty Name="Enabled">True</BooleanProperty>
+    	  </RuleSettings>
+    	</Rule>
+      </Rules>
+    </Analyzer>
+	<Analyzer AnalyzerId="StyleCop.CSharp.ReadabilityRules">
+      <Rules>
+        <Rule Name="DoNotPlaceRegionsWithinElements">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">True</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+    </Analyzer>
+  </Analyzers>
+</StyleCopSettings>
